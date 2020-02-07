@@ -37,7 +37,14 @@ const DialogScreen = (props) => {
 				</ScrollPane>
 			</div>
 			<div style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
-				<DialogTabBar data={[{ text: 'File' }]} />
+				<DialogTabBar
+					selectedIndex={1}
+					data={[
+						{ text: 'dialog_01' },
+						{ text: 'dialog_02' },
+						{ text: 'dialog_03' },
+					]}
+				/>
 				<Panel theme={componentIds.DIALOG_PANEL_CONTENT} />
 			</div>
 		</SplitPane>
