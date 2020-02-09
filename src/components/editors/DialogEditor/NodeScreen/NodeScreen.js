@@ -22,7 +22,7 @@ const NodeScreen = (props) => {
 					<Text>Add Node</Text>
 				</Button>
 				<ScrollPane>
-					<List data={{ text: test }} />
+					<List data={{ text: 'test' }} />
 				</ScrollPane>
 			</div>
 			<div style={{ display: 'flex', flexDirection: 'column' }}>
